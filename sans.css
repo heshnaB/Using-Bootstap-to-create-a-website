@@ -1,0 +1,210 @@
+body {
+    /* background-color: #faeaf8; */
+    font-family: "Lobster", sans-serif;
+    /* font-weight: 300; */
+    font-style: normal;
+}
+
+.container {
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 5%;
+}
+
+nav>.container {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+@media screen and (max-width: 1180px) {
+    .row-2 {
+        display: none;
+    }
+
+    .row-1 {
+        width: max-content;
+        align-items: center;
+    }
+
+    .container {
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 5%;
+    }
+
+    .hero_title, .hero_txt {
+        text-align: center;
+    }
+
+    .btn-group {
+        display: flex;
+        
+    }
+
+
+}
+
+
+
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 150px;
+}
+a {
+    text-decoration: none;
+}
+.ui {
+    border: 1px solid #8b8a8b;
+    border-radius: 20%;
+    height: 40%;
+    padding: 2%;
+    color: #8b8a8b;
+    margin-left: 2%;
+}
+
+.version {
+    border: 1px solid #e6dfe5;
+    background-color: #cacaca;
+    border-radius: 10%;
+    height: 40%;
+    padding: 0.5%;
+    color: #858485;
+    margin-left: 6%;
+}
+
+.mini_icon {
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#buyNow {
+    display: flex;
+    border-radius: 10%;
+    border: 1px solid #f3d9f0;
+    background-color: #f3d9f0;
+    color: #F769EC;
+    align-items: center;
+    padding: 1%;
+}
+
+.hero_btn {
+    display: flex;
+    border-radius: 5%;
+    border: 1px solid #f3d9f0;
+    color: #F769EC;
+    align-items: center;
+    padding: 1em 1em;
+    padding-right: 3%;
+    height: 100%;
+    margin-right: 2%;
+    
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+    
+}
+
+.buyN {
+    width: fit-content;
+}
+.logo_title {
+    color: #f440e9;
+}
+
+.hero_txt {
+    font-weight: 100;
+    color: #fcb3fc;
+    margin-top: -1%;
+    font-size: 1em;
+}
+
+.hero_title {
+    color: #f97cf0;
+    font-size: 3em;
+}
+
+.review {
+    display: flex;
+    flex-wrap: inherit;
+    color: #858485;
+    align-items: center;
+}
+
+.star_icon {
+    height: 20px;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    border: 1px solid #858485;
+    padding: 0.3%;
+    height: fit-content;
+    margin-right: 2%;
+}
+
+.row-1 {
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.he_img {
+    border-radius: 5%;
+    box-shadow: 0 3px 5px rgba(63, 0, 58, 0.5), 0 3px 6px rgba(71, 0, 65, 0.5), 0 5px 8px rgba(71, 0, 56, 0.5), 0 15px 20px rgba(71, 0, 61, 0.5);
+    
+}
+
+.sec1 {
+    display: flex;
+    flex-wrap: inherit;
+
+}
+
+.row-1, .row-2 {
+    height: fit-content;
+}
+
+.card_group {
+    display: flex;
+    flex-wrap: inherit;
+    
+}
+
+.card {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top {
+    width: 20em;
+    border-radius: 5%;
+    box-shadow: 0 .5rem 1rem rgba(63, 0, 58, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body {
+    width: 30em;
+    border-radius: 5%;
+    border: 1px solid #858485;
+    padding-top: 15em;
+    margin-top: -15em;
+}
+
